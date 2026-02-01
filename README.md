@@ -1,73 +1,143 @@
-# Welcome to your Lovable project
 
-## Project info
+Project URL : https://med-weave-link.lovable.app/
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+# Medicare-
+Modern hospital management for better patient care
+🏥 Hospital Management System (HMS)
+A secure, scalable, role-based Hospital Management System designed to manage hospital operations efficiently while protecting sensitive medical data using HIPAA-like security practices.
 
-## How can I edit this code?
+Features Overview
 
-There are several ways of editing your application.
+User Roles
 
-**Use Lovable**
+Admin
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Doctor
 
-Changes made via Lovable will be committed automatically to this repo.
+Patient
 
-**Use your preferred IDE**
+Receptionist
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Each role has role-based access control (RBAC).
 
-Follow these steps:
+Authentication & Security
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+JWT Authentication (Access & Refresh Tokens)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Role-Based Access Control (RBAC)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Password hashing using bcrypt
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Input validation & sanitization
 
-**Edit a file directly in GitHub**
+Protection against SQL Injection & XSS
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Audit logs for sensitive actions
 
-**Use GitHub Codespaces**
+Environment variable–based secrets
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+HIPAA-like data privacy practices
 
-## What technologies are used for this project?
+Core Modules
 
-This project is built with:
+Patient Management
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Patient registration & profile
 
-## How can I deploy this project?
+Medical history
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Prescription records
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
+Doctor Module
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Doctor profiles & departments
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Availability scheduling
+
+Assigned patients
+
+
+Appointment System
+
+Book / reschedule / cancel appointments
+
+Doctor availability check
+
+Status tracking:
+
+Pending
+
+Confirmed
+
+Completed
+
+Medical Records
+
+Diagnosis notes
+
+Prescriptions
+
+Lab reports (PDF upload/download)
+
+Billing System
+
+Invoice generation
+
+Payment status tracking
+
+Billing history per patient
+
+
+Inventory Management
+
+Medicine stock tracking
+
+Low-stock alerts
+
+Supplier records
+
+
+Admin Dashboard
+
+User management
+
+Analytics & charts
+
+Logs & reports
+
+
+
+---
+Frontend Tech Stack
+
+React (Hooks)
+
+Material UI / Tailwind CSS
+
+Responsive design
+
+Role-based dashboards
+
+Charts & analytics
+
+Form validation & error handling
+
+
+
+---
+
+ Backend Tech Stack
+
+Node.js + Express
+
+PostgreSQL
+
+RESTful APIs
+
+JWT Authentication
+
+Modular architecture
+
+Swagger (API Documentation)
